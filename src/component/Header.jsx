@@ -14,22 +14,22 @@ const Header = () => {
             </a>
             <div className="d-flex align-items-center">
               <div className="social-links">
-                <a href="#" className="facebook">
+                <Link href="https://www.facebook.com/chandraprakash.patel.353803/" className="facebook">
                   <i className="bi bi-facebook" />
-                </a>
-                <a href="#" className="twitter">
-                  <i className="bi bi-twitter" />
-                </a>
-                <a href="#" className="instagram">
+                </Link>
+                <Link href="https://www.linkedin.com/in/chandra6388/" className="linkedin">
+                  <i className="bi bi-linkedin" />
+                </Link>
+                <Link href="https://www.instagram.com/i_m_cppatel/" className="instagram">
                   <i className="bi bi-instagram" />
-                </a>
+                </Link>
               </div>
-              <form className="search-form ms-4">
+              <div className="search-form ms-4">
                 <input type="text" placeholder="Search..." className="form-control" />
                 <button type="submit" className="btn">
                   <i className="bi bi-search" />
                 </button>
-              </form>
+              </div>
             </div>
           </div>
         </div>

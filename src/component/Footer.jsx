@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -6,115 +7,54 @@ const Footer = () => {
             <footer id="footer" className="footer">
                 <div className="container footer-top">
                     <div className="row gy-4">
-                        <div className="col-lg-4 col-md-6 footer-about">
+                        <div className="col-lg-9 col-md-6 footer-about">
                             <a href="index.html" className="logo d-flex align-items-center">
                                 <span className="sitename">Blogy</span>
                             </a>
                             <div className="footer-contact pt-3">
-                                <p>A108 Adam Street</p>
-                                <p>New York, NY 535022</p>
+                                <p>Mau Aima Prayagraj</p>
+                                <p>Uttar Pradesh , 212507</p>
                                 <p className="mt-3">
-                                    <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+                                    <strong>Phone:</strong> <span>+91 6388190068</span>
                                 </p>
                                 <p>
-                                    <strong>Email:</strong> <span>info@example.com</span>
+                                    <strong>Email:</strong> <span>cppatel6388@gmail.com</span>
                                 </p>
                             </div>
                             <div className="social-links d-flex mt-4">
-                                <a href="">
-                                    <i className="bi bi-twitter-x" />
-                                </a>
-                                <a href="">
-                                    <i className="bi bi-facebook" />
-                                </a>
-                                <a href="">
-                                    <i className="bi bi-instagram" />
-                                </a>
-                                <a href="">
+                                <Link href="https://www.linkedin.com/in/chandra6388/">
                                     <i className="bi bi-linkedin" />
-                                </a>
+                                </Link>
+                                <Link href="https://www.facebook.com/chandraprakash.patel.353803/">
+                                    <i className="bi bi-facebook" />
+                                </Link>
+                                <Link href="https://www.instagram.com/i_m_cppatel/">
+                                    <i className="bi bi-instagram" />
+                                </Link>
+                               
                             </div>
                         </div>
-                        <div className="col-lg-2 col-md-3 footer-links">
+                        <div className="col-lg-3 col-md-3 footer-links">
                             <h4>Useful Links</h4>
                             <ul>
                                 <li>
-                                    <a href="#">Home</a>
+                                    <Link href="/">Home</Link>
                                 </li>
                                 <li>
-                                    <a href="#">About us</a>
+                                    <Link href="/about">About us</Link>
+                                </li>
+                               
+                                <li>
+                                    <Link href="#">Terms of service</Link>
                                 </li>
                                 <li>
-                                    <a href="#">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">Terms of service</a>
-                                </li>
-                                <li>
-                                    <a href="#">Privacy policy</a>
+                                    <Link href="#">Privacy policy</Link>
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Our Services</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">Web Design</a>
-                                </li>
-                                <li>
-                                    <a href="#">Web Development</a>
-                                </li>
-                                <li>
-                                    <a href="#">Product Management</a>
-                                </li>
-                                <li>
-                                    <a href="#">Marketing</a>
-                                </li>
-                                <li>
-                                    <a href="#">Graphic Design</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Hic solutasetp</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">Molestiae accusamus iure</a>
-                                </li>
-                                <li>
-                                    <a href="#">Excepturi dignissimos</a>
-                                </li>
-                                <li>
-                                    <a href="#">Suscipit distinctio</a>
-                                </li>
-                                <li>
-                                    <a href="#">Dilecta</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sit quas consectetur</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-2 col-md-3 footer-links">
-                            <h4>Nobis illum</h4>
-                            <ul>
-                                <li>
-                                    <a href="#">Ipsam</a>
-                                </li>
-                                <li>
-                                    <a href="#">Laudantium dolorum</a>
-                                </li>
-                                <li>
-                                    <a href="#">Dinera</a>
-                                </li>
-                                <li>
-                                    <a href="#">Trodelas</a>
-                                </li>
-                                <li>
-                                    <a href="#">Flexo</a>
-                                </li>
-                            </ul>
-                        </div>
+                        
+                        
+                        
                     </div>
                 </div>
                 <div className="container copyright text-center mt-4">
@@ -123,7 +63,7 @@ const Footer = () => {
                         <span>All Rights Reserved</span>
                     </p>
                     <div className="credits">
-                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        Designed by <a href="https://www.linkedin.com/in/chandra6388/">Chandra Prakash</a>
                     </div>
                 </div>
             </footer>
